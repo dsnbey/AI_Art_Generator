@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Gorkem\Desktop\AI_Art_Generator\build\CMakeFiles\6def2cd8edcacf198dc6bf83fe2f02cb\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{99BC9FEA-C004-3421-9748-FA51312CCA5D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

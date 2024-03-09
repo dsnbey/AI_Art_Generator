@@ -1,0 +1,10 @@
+^C:\USERS\GORKEM\DESKTOP\AI_ART_GENERATOR\BUILD\CMAKEFILES\6DEF2CD8EDCACF198DC6BF83FE2F02CB\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gorkem/Desktop/AI_Art_Generator -BC:/Users/Gorkem/Desktop/AI_Art_Generator/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Gorkem/Desktop/AI_Art_Generator/build/AI_Art_Generator.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
